@@ -1,5 +1,5 @@
 import axios from 'axios'
-const url = 'https://job-finder-mern-backend.vercel.app/api'
+const url = 'https://job-posting-backend-vm08.onrender.com/api'
 
 export const Userlogin = async ({email, password}) => {
     try{

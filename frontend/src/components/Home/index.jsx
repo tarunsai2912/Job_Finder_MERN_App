@@ -21,7 +21,7 @@ function Home() {
   const [title, setTitle] = useState('')
   const userId = localStorage.getItem('userId')
   const token = JSON.parse(localStorage.getItem('authToken'))
-  const url = 'https://job-finder-mern-backend.vercel.app/api'
+  const url = 'https://job-posting-backend-vm08.onrender.com/api'
 
   const fetchAllJobs = async () => {
     setLoading(true)
