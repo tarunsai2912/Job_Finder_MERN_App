@@ -6,7 +6,7 @@ import './index.css'
 
 function JobPost() {
   const navigate = useNavigate()
-    const url = 'https://job-posting-backend-vm08.onrender.com/api'
+    const url = 'https://job-finder-mern-backend.vercel.app/api'
     const default_skills = ['skills','Python','JavaScript','Java','C++','C','PHP','SQL','HTML','CSS','ReactJS','AngularJS','NodeJS','GIT','KOTLIN','ORACLE','MongoDB']
     const [formData, setFormData] = useState({
       name: '', 

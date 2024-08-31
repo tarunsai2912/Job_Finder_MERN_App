@@ -9,7 +9,7 @@ function UpdateJob() {
   let {id} = useParams()
   const navigate = useNavigate()
 
-  const url = 'https://job-posting-backend-vm08.onrender.com/api'
+  const url = 'https://job-finder-mern-backend.vercel.app/api'
   const userId = localStorage.getItem('userId')
   const token = JSON.parse(localStorage.getItem('authToken'))
 
